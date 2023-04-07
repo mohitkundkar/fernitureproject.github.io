@@ -1,0 +1,83 @@
+  .nav{
+    position:fixed !important;
+    z-index: 1000;
+    width: 100%;
+    
+  }
+ 
+ #Home .home{
+     height: 80vh;
+     background-image: url(hero.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     flex-direction: column;
+    }
+    
+    .home h1{
+        font-size:5rem;
+    font-weight: bold;
+    color: white;
+}
+.home p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+/* ......about.......... */
+#About h1{
+    font-size: 4rem;
+    font-weight: bold;
+
+
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center .cardbody{
+    border: 1px solid rgb(2, 83, 72);
+    height: 22rem;
+
+}
+/* ............Project............... */
+#Project h1{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.project{
+    height:100%;
+    background-color:rgb(3, 156, 156);
+}
+.pcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crdimg img{
+    /* border: 2px solid red; */
+    height: 12rem;
+
+}
+.crdimg{
+    background-color: transparent !important;
+}
+
+/* ..............contact..................... */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Contact h1{
+    font-size: 4rem;
+    font-weight: bold;
+
+
+}
